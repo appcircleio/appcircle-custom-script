@@ -16,22 +16,28 @@ Please refer to the following document for more information about managing envir
 
 For a list of Appcircle-specific environment variables, please refer to the following documentation:  https://docs.appcircle.io/environment-variables/appcircle-specific-environment-variables
 
-## Required Input Variables
+## Input Variables
+
+### Required
 
 - `Execute`: Script to execute with. For example bash or ruby.
 
-## Optional Inputs Variables
+### Optional
 
 - `Script`: Script to execute.
 
-## Required Steps
+## Relationship
 
-- There is no required step that needs to be run afterward for this step to work as expected.
+Below workflow steps are related with this step and should be used as recommended.
 
-## Preceding Steps
+### Required Steps
 
-- There is no preceding step advised to be run beforehand for this step to work as expected.
+There is no required step that needs to be run beforehand for this step to work as expected.
 
-## Following Steps
+### Preceding Steps
 
-- There are no subsequent steps advised to be run for this step to work as expected.
+There is no preceding step advised to be run beforehand for this step to work as expected.
+
+### Following Steps
+
+There are no subsequent steps advised to be run for this step to work as expected.
