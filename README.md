@@ -1,4 +1,4 @@
-# Appcircle Custom Script Step
+# Appcircle _Custom Script_ component
 
 You can use custom scripts for additional functionalities in your builds. Appcircle will run the commands in your custom scripts and perform the specified actions. These scripts will be run on the build agent and you can use any functionality of the virtual machine as you need.
 
@@ -16,3 +16,28 @@ Please refer to the following document for more information about managing envir
 
 For a list of Appcircle-specific environment variables, please refer to the following documentation:  https://docs.appcircle.io/environment-variables/appcircle-specific-environment-variables
 
+## Input Variables
+
+### Required
+
+- `Execute`: Script to execute with. For example bash or ruby.
+
+### Optional
+
+- `Script`: Script to execute.
+
+## Relationship
+
+Below workflow steps are related with this step and should be used as recommended.
+
+### Required Steps
+
+There is no required step that needs to be run beforehand for this step to work as expected.
+
+### Preceding Steps
+
+There is no preceding step advised to be run beforehand for this step to work as expected.
+
+### Following Steps
+
+There are no subsequent steps advised to be run for this step to work as expected.
